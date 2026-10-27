@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas-base: #0B0F17;
+  --color-surface-card: #161F30;
+  --color-surface-elevated: #1E2B42;
+  --color-border-subtle: #2A3A56;
+
+  --color-brand-volt: #D4FF00;
+  --color-brand-volt-hover: #BDDF00;
+  --color-accent-cyan: #00E5FF;
+
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #94A3B8;
+  --color-text-muted: #64748B;
+
+  --color-status-avail-bg: #132E27;
+  --color-status-avail-text: #10B981;
+  --color-status-held-bg: #332200;
+  --color-status-held-text: #F59E0B;
+  --color-status-booked-bg: #1E2530;
+  --color-status-booked-text: #475569;
+  --color-status-block-bg: #2B1214;
+  --color-status-block-text: #F87171;
+}
+
+:root {
+  --background: #0B0F17;
+  --foreground: #F8FAFC;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  min-height: 100vh;
+}
+
+/* Tabular numbers for countdown timers to prevent width jitter */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
