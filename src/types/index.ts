@@ -50,6 +50,38 @@ export enum BookingStatus {
   REFUNDED = 'REFUNDED',
 }
 
+export enum PaymentStatus {
+  CREATED = 'CREATED',
+  CAPTURED = 'CAPTURED',
+  FAILED = 'FAILED',
+  REFUND_PENDING = 'REFUND_PENDING',
+  REFUNDED = 'REFUNDED',
+}
+
+export enum PaymentProvider {
+  MOCK = 'MOCK',
+  RAZORPAY = 'RAZORPAY',
+}
+
+export enum SkillLevel {
+  BEGINNER = 'BEGINNER',
+  INTERMEDIATE = 'INTERMEDIATE',
+  ADVANCED = 'ADVANCED',
+  OPEN = 'OPEN',
+}
+
+export enum GameStatus {
+  OPEN = 'OPEN',
+  FULL = 'FULL',
+  CANCELLED = 'CANCELLED',
+}
+
+export enum GameSeatStatus {
+  HELD = 'HELD',
+  CONFIRMED = 'CONFIRMED',
+  RELEASED = 'RELEASED',
+}
+
 export interface User {
   id: number;
   email: string;
@@ -154,6 +186,63 @@ export interface Booking {
   slot?: Slot;
   court?: Court;
   venue?: Venue;
+  payments?: Payment[];
+  game?: Game | null;
+}
+
+export interface Payment {
+  id: number;
+  paymentReference: string;
+  bookingId: number;
+  userId: number;
+  provider: PaymentProvider;
+  orderId: string;
+  paymentId?: string | null;
+  signature?: string | null;
+  amount: number;
+  currency: string;
+  status: PaymentStatus;
+  refundId?: string | null;
+  refundReason?: string | null;
+  idempotencyKey?: string | null;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface Game {
+  id: number;
+  bookingId: number;
+  creatorId: number;
+  courtId: number;
+  venueId: number;
+  title?: string | null;
+  description?: string | null;
+  skillLevel: SkillLevel;
+  seatsTotal: number;
+  seatsTaken: number;
+  pricePerSeat: number;
+  status: GameStatus;
+  version: number;
+  createdAt: string;
+  updatedAt: string;
+  seats?: GameSeat[];
+  creator?: User;
+  court?: Court;
+  venue?: Venue;
+  booking?: Booking;
+}
+
+export interface GameSeat {
+  id: number;
+  gameId: number;
+  userId: number;
+  seatNumber: number;
+  price: number;
+  status: GameSeatStatus;
+  holdExpiresAt?: string | null;
+  createdAt: string;
+  updatedAt: string;
+  user?: User;
 }
 
 export interface AuthResponse {
@@ -176,4 +265,20 @@ export interface HoldSlotResponse {
   slot: Slot;
   expiresInSeconds: number;
   holdExpiresAt: string;
+}
+
+export interface CourtSlotsResponse {
+  court: {
+    id: number;
+    name: string;
+    venue: {
+      id: number;
+      name: string;
+      city: TricityCity;
+      area: string;
+    };
+    basePricePerHour: number;
+  };
+  date: string;
+  slots: Slot[];
 }
