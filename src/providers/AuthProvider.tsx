@@ -3,9 +3,8 @@
 import React, {
   createContext,
   useContext,
-  useState,
-  useEffect,
   useCallback,
+  useSyncExternalStore,
   ReactNode,
 } from 'react';
 import { User, Role } from '@/types';
@@ -28,54 +27,121 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 const TOKEN_KEY = 'dinkup_token';
 const USER_KEY = 'dinkup_user';
 
-export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<User | null>(null);
-  const [token, setToken] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+interface AuthSnapshot {
+  user: User | null;
+  token: string | null;
+  isLoading: boolean;
+}
 
-  useEffect(() => {
+const SERVER_SNAPSHOT: AuthSnapshot = {
+  user: null,
+  token: null,
+  isLoading: true,
+};
+
+let currentSnapshot: AuthSnapshot | null = null;
+const listeners = new Set<() => void>();
+
+function notify() {
+  for (const listener of listeners) {
+    listener();
+  }
+}
+
+function getStoredSnapshot(): AuthSnapshot {
+  if (typeof window === 'undefined') {
+    return SERVER_SNAPSHOT;
+  }
+  if (!currentSnapshot) {
     try {
       const storedToken = localStorage.getItem(TOKEN_KEY);
       const storedUser = localStorage.getItem(USER_KEY);
-      if (storedToken && storedUser) {
-        setToken(storedToken);
-        setUser(JSON.parse(storedUser));
-      }
+      currentSnapshot = {
+        token: storedToken,
+        user: storedToken && storedUser ? JSON.parse(storedUser) : null,
+        isLoading: false,
+      };
     } catch (err) {
       console.error('Error hydrating auth state:', err);
-    } finally {
-      setIsLoading(false);
+      currentSnapshot = {
+        token: null,
+        user: null,
+        isLoading: false,
+      };
     }
-  }, []);
+  }
+  return currentSnapshot;
+}
+
+function subscribe(callback: () => void) {
+  listeners.add(callback);
+  const handleStorage = (e: StorageEvent) => {
+    if (e.key === TOKEN_KEY || e.key === USER_KEY) {
+      currentSnapshot = null;
+      callback();
+    }
+  };
+  window.addEventListener('storage', handleStorage);
+  return () => {
+    listeners.delete(callback);
+    window.removeEventListener('storage', handleStorage);
+  };
+}
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const snapshot = useSyncExternalStore(
+    subscribe,
+    getStoredSnapshot,
+    () => SERVER_SNAPSHOT,
+  );
+
+  const { user, token, isLoading } = snapshot;
 
   const login = useCallback((newToken: string, newUser: User) => {
-    setToken(newToken);
-    setUser(newUser);
     try {
       localStorage.setItem(TOKEN_KEY, newToken);
       localStorage.setItem(USER_KEY, JSON.stringify(newUser));
     } catch (err) {
       console.error('Error storing auth credentials:', err);
     }
+    currentSnapshot = {
+      token: newToken,
+      user: newUser,
+      isLoading: false,
+    };
+    notify();
   }, []);
 
   const logout = useCallback(() => {
-    setToken(null);
-    setUser(null);
     try {
       localStorage.removeItem(TOKEN_KEY);
       localStorage.removeItem(USER_KEY);
     } catch (err) {
       console.error('Error clearing auth credentials:', err);
     }
+    currentSnapshot = {
+      token: null,
+      user: null,
+      isLoading: false,
+    };
+    notify();
   }, []);
 
   const refreshUser = useCallback(async () => {
     if (!token) return;
     try {
       const currentUser = await apiClient<User>('auth/me');
-      setUser(currentUser);
-      localStorage.setItem(USER_KEY, JSON.stringify(currentUser));
+      try {
+        localStorage.setItem(USER_KEY, JSON.stringify(currentUser));
+      } catch (err) {
+        console.error('Error updating cached user:', err);
+      }
+      currentSnapshot = {
+        token,
+        user: currentUser,
+        isLoading: false,
+      };
+      notify();
     } catch {
       logout();
     }
@@ -110,3 +176,4 @@ export function useAuth() {
   }
   return context;
 }
+
