@@ -1,0 +1,1080 @@
+{
+  "hosts": [
+    {
+      "id": 101,
+      "email": "garry@dinkinghub.in",
+      "name": "Gurkirat 'Garry' Dhillon",
+      "phone": "+919814112345",
+      "role": "HOST",
+      "isActive": true,
+      "createdAt": "2026-01-15T08:00:00.000Z",
+      "updatedAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": 102,
+      "email": "simi@lakeclubdinkers.com",
+      "name": "Simran 'Simi' Bedi",
+      "phone": "+919872054321",
+      "role": "HOST",
+      "isActive": true,
+      "createdAt": "2026-01-18T09:30:00.000Z",
+      "updatedAt": "2026-01-18T09:30:00.000Z"
+    },
+    {
+      "id": 103,
+      "email": "raman@tpcmohali.com",
+      "name": "Ramanjeet Singh",
+      "phone": "+919888099887",
+      "role": "HOST",
+      "isActive": true,
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "updatedAt": "2026-02-01T10:00:00.000Z"
+    },
+    {
+      "id": 104,
+      "email": "vicky@baselinearena.com",
+      "name": "Vikramjit 'Vicky' Khurana",
+      "phone": "+919876544321",
+      "role": "HOST",
+      "isActive": true,
+      "createdAt": "2026-02-10T11:00:00.000Z",
+      "updatedAt": "2026-02-10T11:00:00.000Z"
+    }
+  ],
+  "players": [
+    {
+      "id": 201,
+      "email": "aman.cheema88@gmail.com",
+      "name": "Amanpreet Cheema",
+      "phone": "+919876123410",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-15T14:20:00.000Z",
+      "updatedAt": "2026-02-15T14:20:00.000Z"
+    },
+    {
+      "id": 202,
+      "email": "rhea.kapoor.arch@gmail.com",
+      "name": "Rhea Kapoor",
+      "phone": "+919814088231",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-16T16:45:00.000Z",
+      "updatedAt": "2026-02-16T16:45:00.000Z"
+    },
+    {
+      "id": 203,
+      "email": "garry.sodhi@sodhicapital.in",
+      "name": "Gurkirat 'Garry' Sodhi",
+      "phone": "+919888455120",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-18T11:10:00.000Z",
+      "updatedAt": "2026-02-18T11:10:00.000Z"
+    },
+    {
+      "id": 204,
+      "email": "simrat.dhillon93@outlook.com",
+      "name": "Simrat Dhillon",
+      "phone": "+919779211456",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-20T08:30:00.000Z",
+      "updatedAt": "2026-02-20T08:30:00.000Z"
+    },
+    {
+      "id": 205,
+      "email": "tj.joshi.pec@gmail.com",
+      "name": "Tarunveer 'TJ' Joshi",
+      "phone": "+919501567890",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-22T19:00:00.000Z",
+      "updatedAt": "2026-02-22T19:00:00.000Z"
+    },
+    {
+      "id": 206,
+      "email": "harleen.bawa.sports@gmail.com",
+      "name": "Harleen Kaur Bawa",
+      "phone": "+919815543219",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-24T12:00:00.000Z",
+      "updatedAt": "2026-02-24T12:00:00.000Z"
+    },
+    {
+      "id": 207,
+      "email": "dr.vmehra.ortho@gmail.com",
+      "name": "Dr. Vikramaditya Mehra",
+      "phone": "+919872277800",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-25T07:15:00.000Z",
+      "updatedAt": "2026-02-25T07:15:00.000Z"
+    },
+    {
+      "id": 208,
+      "email": "pooja.sehgal.ux@gmail.com",
+      "name": "Pooja Sehgal",
+      "phone": "+919888933214",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-02-27T15:30:00.000Z",
+      "updatedAt": "2026-02-27T15:30:00.000Z"
+    },
+    {
+      "id": 209,
+      "email": "arjun@drinkbotanics.in",
+      "name": "Arjun Batra",
+      "phone": "+919876011988",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-03-01T10:40:00.000Z",
+      "updatedAt": "2026-03-01T10:40:00.000Z"
+    },
+    {
+      "id": 210,
+      "email": "navdeep.sandhu.tt@gmail.com",
+      "name": "Navdeep Singh Sandhu",
+      "phone": "+919463045671",
+      "role": "PLAYER",
+      "isActive": true,
+      "createdAt": "2026-03-02T18:25:00.000Z",
+      "updatedAt": "2026-03-02T18:25:00.000Z"
+    }
+  ],
+  "venues": [
+    {
+      "id": 1,
+      "hostId": 101,
+      "name": "The Dinking Hub at Sec 42",
+      "slug": "the-dinking-hub-sec-42",
+      "description": "Chandigarh's premier competitive pickleball venue adjacent to Sector 42 Lake. Features 4 tournament-grade cushioned acrylic courts, 350-lux LED floodlights, Franklin and Selkirk paddle rentals, ball machine drills, and a vibrant sports kiosk.",
+      "city": "CHANDIGARH",
+      "area": "Sector 42 Sports Corridor",
+      "address": "Complex Access Road, Adjacent to Sector 42 Lake & Hockey Stadium, Sector 42-B, Chandigarh 160036",
+      "googleMapsUrl": "https://maps.google.com/?q=30.7258,76.7441",
+      "latitude": 30.7258,
+      "longitude": 76.7441,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919814112345",
+      "whatsappNumber": "+919814112345",
+      "contactEmail": "garry@dinkinghub.in",
+      "cancellationCutoffHours": 6,
+      "isActive": true,
+      "createdAt": "2026-01-20T00:00:00.000Z",
+      "updatedAt": "2026-01-20T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1001,
+          "venueId": 1,
+          "url": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-01-20T00:00:00.000Z"
+        },
+        {
+          "id": 1002,
+          "venueId": 1,
+          "url": "https://images.unsplash.com/photo-1544919982-b61976f0ba43?auto=format&fit=crop&w=1200&q=80",
+          "isCover": false,
+          "displayOrder": 2,
+          "createdAt": "2026-01-20T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 1,
+          "venueId": 1,
+          "name": "Court 1 - Stadium Centre Court",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "OUTDOOR",
+          "basePricePerHour": 650,
+          "isActive": true,
+          "createdAt": "2026-01-20T00:00:00.000Z",
+          "updatedAt": "2026-01-20T00:00:00.000Z"
+        },
+        {
+          "id": 2,
+          "venueId": 1,
+          "name": "Court 2 - North Pavilion Court",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "OUTDOOR",
+          "basePricePerHour": 600,
+          "isActive": true,
+          "createdAt": "2026-01-20T00:00:00.000Z",
+          "updatedAt": "2026-01-20T00:00:00.000Z"
+        },
+        {
+          "id": 3,
+          "venueId": 1,
+          "name": "Court 3 - South Pavilion Court",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "OUTDOOR",
+          "basePricePerHour": 600,
+          "isActive": true,
+          "createdAt": "2026-01-20T00:00:00.000Z",
+          "updatedAt": "2026-01-20T00:00:00.000Z"
+        },
+        {
+          "id": 4,
+          "venueId": 1,
+          "name": "Court 4 - The Practice Court",
+          "surface": "ACRYLIC_HARD",
+          "type": "OUTDOOR",
+          "basePricePerHour": 500,
+          "isActive": true,
+          "createdAt": "2026-01-20T00:00:00.000Z",
+          "updatedAt": "2026-01-20T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "hostId": 102,
+      "name": "Lake Club Dinkers & Cafe",
+      "slug": "lake-club-dinkers-and-cafe",
+      "description": "Lush, upscale lifestyle club nestled near Sukhna Lake. Features 2 cushioned acrylic courts and 1 UV-shaded rooftop court, an artisanal specialty coffee bar, luxury locker suites, and EV charging stations.",
+      "city": "CHANDIGARH",
+      "area": "Sector 8 / Sukhna Vicinity",
+      "address": "Uttar Marg, Near Sukhna Lake Promenade & Sector 8-B Boulevard, Chandigarh 160008",
+      "googleMapsUrl": "https://maps.google.com/?q=30.7380,76.8010",
+      "latitude": 30.738,
+      "longitude": 76.801,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919872054321",
+      "whatsappNumber": "+919872054321",
+      "contactEmail": "simi@lakeclubdinkers.com",
+      "cancellationCutoffHours": 12,
+      "isActive": true,
+      "createdAt": "2026-01-22T00:00:00.000Z",
+      "updatedAt": "2026-01-22T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1003,
+          "venueId": 2,
+          "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-01-22T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 5,
+          "venueId": 2,
+          "name": "Court 1 - The Promenade Deck",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "OUTDOOR",
+          "basePricePerHour": 750,
+          "isActive": true,
+          "createdAt": "2026-01-22T00:00:00.000Z",
+          "updatedAt": "2026-01-22T00:00:00.000Z"
+        },
+        {
+          "id": 6,
+          "venueId": 2,
+          "name": "Court 2 - Garden Court",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "OUTDOOR",
+          "basePricePerHour": 700,
+          "isActive": true,
+          "createdAt": "2026-01-22T00:00:00.000Z",
+          "updatedAt": "2026-01-22T00:00:00.000Z"
+        },
+        {
+          "id": 7,
+          "venueId": 2,
+          "name": "Court 3 - The Shaded Rooftop",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "COVERED_ROOFTOP",
+          "basePricePerHour": 800,
+          "isActive": true,
+          "createdAt": "2026-01-22T00:00:00.000Z",
+          "updatedAt": "2026-01-22T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "hostId": 101,
+      "name": "Sector 10 Heritage Courts",
+      "slug": "sector-10-heritage-courts",
+      "description": "Collegiate and energetic open-air community courts along the Sector 10 cultural boulevard. Fast hard courts under mature trees, evening floodlights, and a social cafe crowd.",
+      "city": "CHANDIGARH",
+      "area": "Sector 10 Cultural Belt",
+      "address": "Leisure Valley Road, Sector 10-C, Chandigarh 160011",
+      "googleMapsUrl": "https://maps.google.com/?q=30.7510,76.7905",
+      "latitude": 30.751,
+      "longitude": 76.7905,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919814112346",
+      "whatsappNumber": "+919814112345",
+      "contactEmail": "heritage10@dinkinghub.in",
+      "cancellationCutoffHours": 4,
+      "isActive": true,
+      "createdAt": "2026-01-25T00:00:00.000Z",
+      "updatedAt": "2026-01-25T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1004,
+          "venueId": 3,
+          "url": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-01-25T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 8,
+          "venueId": 3,
+          "name": "Court 1 - Leisure Valley Court",
+          "surface": "ACRYLIC_HARD",
+          "type": "OUTDOOR",
+          "basePricePerHour": 450,
+          "isActive": true,
+          "createdAt": "2026-01-25T00:00:00.000Z",
+          "updatedAt": "2026-01-25T00:00:00.000Z"
+        },
+        {
+          "id": 9,
+          "venueId": 3,
+          "name": "Court 2 - Museum Side Court",
+          "surface": "ACRYLIC_HARD",
+          "type": "OUTDOOR",
+          "basePricePerHour": 450,
+          "isActive": true,
+          "createdAt": "2026-01-25T00:00:00.000Z",
+          "updatedAt": "2026-01-25T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "hostId": 103,
+      "name": "Tricity Pickleball Club (TPC) Mohali",
+      "slug": "tpc-mohali",
+      "description": "State-of-the-art indoor climate-controlled pickleball arena in the heart of Mohali's tech corridor. Features 3 tournament courts, acoustic noise dampening, automated ball machines, and premium shower lockers.",
+      "city": "MOHALI",
+      "area": "Phase 8 Industrial / Bestech Vicinity",
+      "address": "Plot C-128, Industrial Area Phase 8, Sector 72, Mohali, Punjab 160071",
+      "googleMapsUrl": "https://maps.google.com/?q=30.7050,76.7110",
+      "latitude": 30.705,
+      "longitude": 76.711,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919888099887",
+      "whatsappNumber": "+919888099887",
+      "contactEmail": "raman@tpcmohali.com",
+      "cancellationCutoffHours": 6,
+      "isActive": true,
+      "createdAt": "2026-02-05T00:00:00.000Z",
+      "updatedAt": "2026-02-05T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1005,
+          "venueId": 4,
+          "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-02-05T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 10,
+          "venueId": 4,
+          "name": "Court 1 - Centre Court Pro (AC)",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "INDOOR",
+          "basePricePerHour": 750,
+          "isActive": true,
+          "createdAt": "2026-02-05T00:00:00.000Z",
+          "updatedAt": "2026-02-05T00:00:00.000Z"
+        },
+        {
+          "id": 11,
+          "venueId": 4,
+          "name": "Court 2 - Silicon Blue Court (AC)",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "INDOOR",
+          "basePricePerHour": 700,
+          "isActive": true,
+          "createdAt": "2026-02-05T00:00:00.000Z",
+          "updatedAt": "2026-02-05T00:00:00.000Z"
+        },
+        {
+          "id": 12,
+          "venueId": 4,
+          "name": "Court 3 - The Drill & Ball Machine Court",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "INDOOR",
+          "basePricePerHour": 650,
+          "isActive": true,
+          "createdAt": "2026-02-05T00:00:00.000Z",
+          "updatedAt": "2026-02-05T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "hostId": 103,
+      "name": "JLPL Smash Zone Arena",
+      "slug": "jlpl-smash-zone-arena",
+      "description": "Massive 35-foot high-ceiling sports warehouse off Airport Road. 4 indoor courts, 4K camera match recording, pro shop paddle demos, and weekend DUPR rating round-robins.",
+      "city": "MOHALI",
+      "area": "Sector 82 JLPL / IT City",
+      "address": "Warehouse 14, JLPL Industrial Area, Sector 82, Mohali, Punjab 160055",
+      "googleMapsUrl": "https://maps.google.com/?q=30.6650,76.7320",
+      "latitude": 30.665,
+      "longitude": 76.732,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919888099888",
+      "whatsappNumber": "+919888099887",
+      "contactEmail": "jlpl@tpcmohali.com",
+      "cancellationCutoffHours": 6,
+      "isActive": true,
+      "createdAt": "2026-02-08T00:00:00.000Z",
+      "updatedAt": "2026-02-08T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1006,
+          "venueId": 5,
+          "url": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-02-08T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 13,
+          "venueId": 5,
+          "name": "Court 1 - Championship Court A",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "INDOOR",
+          "basePricePerHour": 750,
+          "isActive": true,
+          "createdAt": "2026-02-08T00:00:00.000Z",
+          "updatedAt": "2026-02-08T00:00:00.000Z"
+        },
+        {
+          "id": 14,
+          "venueId": 5,
+          "name": "Court 2 - Championship Court B",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "INDOOR",
+          "basePricePerHour": 700,
+          "isActive": true,
+          "createdAt": "2026-02-08T00:00:00.000Z",
+          "updatedAt": "2026-02-08T00:00:00.000Z"
+        },
+        {
+          "id": 15,
+          "venueId": 5,
+          "name": "Court 3 - Speed Arena",
+          "surface": "WOODEN",
+          "type": "INDOOR",
+          "basePricePerHour": 650,
+          "isActive": true,
+          "createdAt": "2026-02-08T00:00:00.000Z",
+          "updatedAt": "2026-02-08T00:00:00.000Z"
+        },
+        {
+          "id": 16,
+          "venueId": 5,
+          "name": "Court 4 - Challenge Court",
+          "surface": "ACRYLIC_HARD",
+          "type": "INDOOR",
+          "basePricePerHour": 600,
+          "isActive": true,
+          "createdAt": "2026-02-08T00:00:00.000Z",
+          "updatedAt": "2026-02-08T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "hostId": 104,
+      "name": "Baseline Arena Panchkula",
+      "slug": "baseline-arena-panchkula",
+      "description": "Panchkula's premier multi-court athletic facility across from Tau Devi Lal Sports Complex. 3 outdoor cushioned acrylic courts, 1 synthetic turf junior court, 400-lux stadium floodlights, and player dugouts.",
+      "city": "PANCHKULA",
+      "area": "Sector 20 / Tau Devi Lal Hub",
+      "address": "Stadium South Link Road, Near Gate 3 Tau Devi Lal Sports Complex, Sector 20, Panchkula 134117",
+      "googleMapsUrl": "https://maps.google.com/?q=30.6780,76.8620",
+      "latitude": 30.678,
+      "longitude": 76.862,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919876544321",
+      "whatsappNumber": "+919876544321",
+      "contactEmail": "vicky@baselinearena.com",
+      "cancellationCutoffHours": 6,
+      "isActive": true,
+      "createdAt": "2026-02-12T00:00:00.000Z",
+      "updatedAt": "2026-02-12T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1007,
+          "venueId": 6,
+          "url": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-02-12T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 17,
+          "venueId": 6,
+          "name": "Court 1 - Tau Devi Lal North Court",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "OUTDOOR",
+          "basePricePerHour": 550,
+          "isActive": true,
+          "createdAt": "2026-02-12T00:00:00.000Z",
+          "updatedAt": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "id": 18,
+          "venueId": 6,
+          "name": "Court 2 - Tau Devi Lal South Court",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "OUTDOOR",
+          "basePricePerHour": 550,
+          "isActive": true,
+          "createdAt": "2026-02-12T00:00:00.000Z",
+          "updatedAt": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "id": 19,
+          "venueId": 6,
+          "name": "Court 3 - Turf Academy Court",
+          "surface": "SYNTHETIC_TURF",
+          "type": "OUTDOOR",
+          "basePricePerHour": 400,
+          "isActive": true,
+          "createdAt": "2026-02-12T00:00:00.000Z",
+          "updatedAt": "2026-02-12T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "hostId": 102,
+      "name": "The Foothills Club Panchkula",
+      "slug": "the-foothills-club-panchkula",
+      "description": "Scenic mountain-view covered rooftop courts in Mansa Devi Complex. Retractable weather blinds, all-weather cushioned modular tiles, fresh herbal teas, and a peaceful yoga stretch lounge.",
+      "city": "PANCHKULA",
+      "area": "MDC Sector 4",
+      "address": "Shivalik Hill View Enclave, MDC Sector 4, Panchkula 134107",
+      "googleMapsUrl": "https://maps.google.com/?q=30.7180,76.8480",
+      "latitude": 30.718,
+      "longitude": 76.848,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919872054322",
+      "whatsappNumber": "+919872054321",
+      "contactEmail": "foothills@lakeclubdinkers.com",
+      "cancellationCutoffHours": 12,
+      "isActive": true,
+      "createdAt": "2026-02-15T00:00:00.000Z",
+      "updatedAt": "2026-02-15T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1008,
+          "venueId": 7,
+          "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-02-15T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 20,
+          "venueId": 7,
+          "name": "Court 1 - Shivalik Skyline Deck",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "COVERED_ROOFTOP",
+          "basePricePerHour": 700,
+          "isActive": true,
+          "createdAt": "2026-02-15T00:00:00.000Z",
+          "updatedAt": "2026-02-15T00:00:00.000Z"
+        },
+        {
+          "id": 21,
+          "venueId": 7,
+          "name": "Court 2 - Valley View Covered Deck",
+          "surface": "CUSHIONED_ACRYLIC",
+          "type": "COVERED_ROOFTOP",
+          "basePricePerHour": 700,
+          "isActive": true,
+          "createdAt": "2026-02-15T00:00:00.000Z",
+          "updatedAt": "2026-02-15T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "hostId": 104,
+      "name": "CourtYard Zirakpur Sports Hub",
+      "slug": "courtyard-zirakpur-sports-hub",
+      "description": "High-octane community sports hub on VIP Road behind Decathlon. Features 3 floodlit hard courts, fast-paced King of the Court rotations, paddle demo kiosks, and late-night matches until 23:00.",
+      "city": "ZIRAKPUR",
+      "area": "VIP Road / Airport Ring Road",
+      "address": "Sports Hub Lane, Behind Maya Garden City & Decathlon, VIP Road, Zirakpur 140603",
+      "googleMapsUrl": "https://maps.google.com/?q=30.6420,76.8180",
+      "latitude": 30.642,
+      "longitude": 76.818,
+      "hasLighting": true,
+      "hasEquipmentRental": true,
+      "hasParking": true,
+      "hasWashroom": true,
+      "hasDrinkingWater": true,
+      "contactPhone": "+919876544322",
+      "whatsappNumber": "+919876544321",
+      "contactEmail": "courtyard@baselinearena.com",
+      "cancellationCutoffHours": 4,
+      "isActive": true,
+      "createdAt": "2026-02-20T00:00:00.000Z",
+      "updatedAt": "2026-02-20T00:00:00.000Z",
+      "images": [
+        {
+          "id": 1009,
+          "venueId": 8,
+          "url": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&w=1200&q=80",
+          "isCover": true,
+          "displayOrder": 1,
+          "createdAt": "2026-02-20T00:00:00.000Z"
+        }
+      ],
+      "courts": [
+        {
+          "id": 22,
+          "venueId": 8,
+          "name": "Court 1 - The Runway Court",
+          "surface": "ACRYLIC_HARD",
+          "type": "OUTDOOR",
+          "basePricePerHour": 500,
+          "isActive": true,
+          "createdAt": "2026-02-20T00:00:00.000Z",
+          "updatedAt": "2026-02-20T00:00:00.000Z"
+        },
+        {
+          "id": 23,
+          "venueId": 8,
+          "name": "Court 2 - Express Court",
+          "surface": "ACRYLIC_HARD",
+          "type": "OUTDOOR",
+          "basePricePerHour": 500,
+          "isActive": true,
+          "createdAt": "2026-02-20T00:00:00.000Z",
+          "updatedAt": "2026-02-20T00:00:00.000Z"
+        },
+        {
+          "id": 24,
+          "venueId": 8,
+          "name": "Court 3 - Neon Arena",
+          "surface": "CONCRETE",
+          "type": "OUTDOOR",
+          "basePricePerHour": 400,
+          "isActive": true,
+          "createdAt": "2026-02-20T00:00:00.000Z",
+          "updatedAt": "2026-02-20T00:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "openGames": [
+    {
+      "id": 1,
+      "bookingId": 501,
+      "creatorId": 203,
+      "courtId": 5,
+      "venueId": 2,
+      "title": "Morning Dink & Lake Chai \u2014 Doubles (3.0 - 3.5)",
+      "description": "Brisk morning breeze by Sukhna Lake followed by hot adrak chai and sourdough toast at The Third Shot Cafe. Looking for one solid 3.0-3.5 player for relaxed, structured doubles. Focus strictly on sustained dinking patience, soft resets, and third-shot drops. No frantic bangers please! First to tap confirmed takes the spot.",
+      "skillLevel": "INTERMEDIATE",
+      "seatsTotal": 4,
+      "seatsTaken": 3,
+      "pricePerSeat": 200,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-01T08:00:00.000Z",
+      "updatedAt": "2026-03-01T08:00:00.000Z",
+      "seats": [
+        {
+          "id": 101,
+          "gameId": 1,
+          "userId": 203,
+          "seatNumber": 1,
+          "price": 200,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-01T08:00:00.000Z",
+          "updatedAt": "2026-03-01T08:00:00.000Z"
+        },
+        {
+          "id": 102,
+          "gameId": 1,
+          "userId": 201,
+          "seatNumber": 2,
+          "price": 200,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-01T08:30:00.000Z",
+          "updatedAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "id": 103,
+          "gameId": 1,
+          "userId": 207,
+          "seatNumber": 3,
+          "price": 200,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-01T09:00:00.000Z",
+          "updatedAt": "2026-03-01T09:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "bookingId": 502,
+      "creatorId": 202,
+      "courtId": 1,
+      "venueId": 1,
+      "title": "Friday Night Under Lights \u2014 Competitive 4.0+ Fast Pace",
+      "description": "High-octane competitive doubles under the 350-lux stadium floodlights. Fast kitchen firefights, aggressive roll volleys, Erne readiness, and tournament tempo. Bring Franklin X-40 or Dura Fast 40 yellow balls. We play 5 intense sets to 11 before heading out for Friday night dinner in Sector 26. One 4.0+ spot open!",
+      "skillLevel": "ADVANCED",
+      "seatsTotal": 4,
+      "seatsTaken": 3,
+      "pricePerSeat": 185,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-02T10:00:00.000Z",
+      "updatedAt": "2026-03-02T10:00:00.000Z",
+      "seats": [
+        {
+          "id": 201,
+          "gameId": 2,
+          "userId": 202,
+          "seatNumber": 1,
+          "price": 185,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-02T10:00:00.000Z",
+          "updatedAt": "2026-03-02T10:00:00.000Z"
+        },
+        {
+          "id": 202,
+          "gameId": 2,
+          "userId": 205,
+          "seatNumber": 2,
+          "price": 185,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-02T11:15:00.000Z",
+          "updatedAt": "2026-03-02T11:15:00.000Z"
+        },
+        {
+          "id": 203,
+          "gameId": 2,
+          "userId": 210,
+          "seatNumber": 3,
+          "price": 185,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-02T12:00:00.000Z",
+          "updatedAt": "2026-03-02T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "bookingId": 503,
+      "creatorId": 204,
+      "courtId": 21,
+      "venueId": 7,
+      "title": "Sunday Beginner Social & Technique Drill (2.0 - 2.5)",
+      "description": "Friendly, zero-pressure Sunday morning hit for players transitioning from badminton/running or picking up a paddle for the first month! We'll spend the first 15 mins drilling serves and soft kitchen drops, then play friendly rotating sets. Great mountain breeze and shaded roof. Extra rental paddles available at the desk if you don't own one yet!",
+      "skillLevel": "BEGINNER",
+      "seatsTotal": 4,
+      "seatsTaken": 2,
+      "pricePerSeat": 175,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-03T11:00:00.000Z",
+      "updatedAt": "2026-03-03T11:00:00.000Z",
+      "seats": [
+        {
+          "id": 301,
+          "gameId": 3,
+          "userId": 204,
+          "seatNumber": 1,
+          "price": 175,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-03T11:00:00.000Z",
+          "updatedAt": "2026-03-03T11:00:00.000Z"
+        },
+        {
+          "id": 302,
+          "gameId": 3,
+          "userId": 208,
+          "seatNumber": 2,
+          "price": 175,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-03T12:20:00.000Z",
+          "updatedAt": "2026-03-03T12:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "bookingId": 504,
+      "creatorId": 201,
+      "courtId": 11,
+      "venueId": 4,
+      "title": "After-Work Techie Smash \u2014 Splitting Court Cost (3.0 - 3.5)",
+      "description": "De-stress after sprint reviews and standup tickets! Fully air-conditioned indoor cushioned court right next to QuarkCity & Bestech Towers. Splitting the court cost equally at \u20b9215 per seat. Good mix of patient soft play and sudden speedups. Clean showers available if you're heading straight out afterward.",
+      "skillLevel": "INTERMEDIATE",
+      "seatsTotal": 4,
+      "seatsTaken": 3,
+      "pricePerSeat": 215,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-04T14:00:00.000Z",
+      "updatedAt": "2026-03-04T14:00:00.000Z",
+      "seats": [
+        {
+          "id": 401,
+          "gameId": 4,
+          "userId": 201,
+          "seatNumber": 1,
+          "price": 215,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-04T14:00:00.000Z",
+          "updatedAt": "2026-03-04T14:00:00.000Z"
+        },
+        {
+          "id": 402,
+          "gameId": 4,
+          "userId": 207,
+          "seatNumber": 2,
+          "price": 215,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-04T14:30:00.000Z",
+          "updatedAt": "2026-03-04T14:30:00.000Z"
+        },
+        {
+          "id": 403,
+          "gameId": 4,
+          "userId": 206,
+          "seatNumber": 3,
+          "price": 215,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-04T15:00:00.000Z",
+          "updatedAt": "2026-03-04T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "bookingId": 505,
+      "creatorId": 206,
+      "courtId": 22,
+      "venueId": 8,
+      "title": "Zirakpur Sunset Sizzler \u2014 Open Skill Doubles (Casual 2.5 - 3.5)",
+      "description": "Golden hour games just off VIP Road! Open to anyone who knows basic scoring and can keep a 6-ball rally alive. Upbeat playlist on court speakers, water breaks, and King of the Court rotations so everyone plays with everyone. Post-match fresh fruit shakes at the kiosk!",
+      "skillLevel": "OPEN",
+      "seatsTotal": 4,
+      "seatsTaken": 2,
+      "pricePerSeat": 150,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-05T09:00:00.000Z",
+      "updatedAt": "2026-03-05T09:00:00.000Z",
+      "seats": [
+        {
+          "id": 501,
+          "gameId": 5,
+          "userId": 206,
+          "seatNumber": 1,
+          "price": 150,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-05T09:00:00.000Z",
+          "updatedAt": "2026-03-05T09:00:00.000Z"
+        },
+        {
+          "id": 502,
+          "gameId": 5,
+          "userId": 209,
+          "seatNumber": 2,
+          "price": 150,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-05T09:45:00.000Z",
+          "updatedAt": "2026-03-05T09:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "bookingId": 506,
+      "creatorId": 205,
+      "courtId": 13,
+      "venueId": 5,
+      "title": "Midweek Power Hour \u2014 Advanced 4.0+ Fast Hands",
+      "description": "Need one quick-handed 4.0+ player to round out an aggressive 60-min doubles session. Fast NVZ punch exchanges, ATP defense, and deep drive returns. Court has 4K overhead cameras so we can review the game footage after the session. Grab the last seat!",
+      "skillLevel": "ADVANCED",
+      "seatsTotal": 4,
+      "seatsTaken": 3,
+      "pricePerSeat": 225,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "updatedAt": "2026-03-06T12:00:00.000Z",
+      "seats": [
+        {
+          "id": 601,
+          "gameId": 6,
+          "userId": 205,
+          "seatNumber": 1,
+          "price": 225,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-06T12:00:00.000Z",
+          "updatedAt": "2026-03-06T12:00:00.000Z"
+        },
+        {
+          "id": 602,
+          "gameId": 6,
+          "userId": 202,
+          "seatNumber": 2,
+          "price": 225,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-06T12:30:00.000Z",
+          "updatedAt": "2026-03-06T12:30:00.000Z"
+        },
+        {
+          "id": 603,
+          "gameId": 6,
+          "userId": 210,
+          "seatNumber": 3,
+          "price": 225,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-06T13:00:00.000Z",
+          "updatedAt": "2026-03-06T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "bookingId": 507,
+      "creatorId": 207,
+      "courtId": 17,
+      "venueId": 6,
+      "title": "Panchkula Morning Masters (Intermediate 3.0+)",
+      "description": "Disciplined, low-impact morning doubles before clinic and office hours. Focus on placement, cross-court dinking angles, and consistent depth over brute power. Great community of regulars from Sector 20 and MDC. Warm-up starts strictly at 06:50 AM on the sideline.",
+      "skillLevel": "INTERMEDIATE",
+      "seatsTotal": 4,
+      "seatsTaken": 3,
+      "pricePerSeat": 160,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-07T06:00:00.000Z",
+      "updatedAt": "2026-03-07T06:00:00.000Z",
+      "seats": [
+        {
+          "id": 701,
+          "gameId": 7,
+          "userId": 207,
+          "seatNumber": 1,
+          "price": 160,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-07T06:00:00.000Z",
+          "updatedAt": "2026-03-07T06:00:00.000Z"
+        },
+        {
+          "id": 702,
+          "gameId": 7,
+          "userId": 203,
+          "seatNumber": 2,
+          "price": 160,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-07T06:15:00.000Z",
+          "updatedAt": "2026-03-07T06:15:00.000Z"
+        },
+        {
+          "id": 703,
+          "gameId": 7,
+          "userId": 208,
+          "seatNumber": 3,
+          "price": 160,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-07T06:30:00.000Z",
+          "updatedAt": "2026-03-07T06:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "bookingId": 508,
+      "creatorId": 209,
+      "courtId": 8,
+      "venueId": 3,
+      "title": "Weekend King of the Court Scrimmage (Open Skill Level)",
+      "description": "Classic Sector 10 weekend vibe under the green trees! King of the Court format: 11-point games, win by 1, winners stay and split, losers rotate. Energetic crowd, music, and post-match cold coffee at the Sector 10 market. Two spots ready for grabs.",
+      "skillLevel": "OPEN",
+      "seatsTotal": 4,
+      "seatsTaken": 2,
+      "pricePerSeat": 140,
+      "status": "OPEN",
+      "version": 1,
+      "createdAt": "2026-03-08T16:00:00.000Z",
+      "updatedAt": "2026-03-08T16:00:00.000Z",
+      "seats": [
+        {
+          "id": 801,
+          "gameId": 8,
+          "userId": 209,
+          "seatNumber": 1,
+          "price": 140,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-08T16:00:00.000Z",
+          "updatedAt": "2026-03-08T16:00:00.000Z"
+        },
+        {
+          "id": 802,
+          "gameId": 8,
+          "userId": 201,
+          "seatNumber": 2,
+          "price": 140,
+          "status": "CONFIRMED",
+          "createdAt": "2026-03-08T16:30:00.000Z",
+          "updatedAt": "2026-03-08T16:30:00.000Z"
+        }
+      ]
+    }
+  ]
+}
